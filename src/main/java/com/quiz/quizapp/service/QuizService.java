@@ -24,6 +24,6 @@ public class QuizService {
         quiz.setTitle(title);
         quiz.setQuestions(questions);
         quizDao.save(quiz);
-        return new ResponseEntity<>("Success 200", HttpStatus.CREATED);
+        return new ResponseEntity<>("Success ", HttpStatus.CREATED);
     }
 }
